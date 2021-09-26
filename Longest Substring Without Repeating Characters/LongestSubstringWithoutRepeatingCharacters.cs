@@ -7,8 +7,7 @@ namespace Leetcode.Longest_Substring_Without_Repeating_Characters
 	{
 		public static void Go()
 		{
-			//const string source = "abrkaabcdefghijjxxx";
-			const string source = "abrkabcdef";
+			const string source = "abrkaabcdefghijjxxx";
 
 			var result = FindLongestSubstringWithoutRepeating(source);
 
