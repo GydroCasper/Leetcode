@@ -1,4 +1,4 @@
-﻿using Leetcode.Longest_Substring_Without_Repeating_Characters;
+﻿using Leetcode.Validate_Balanced_Parentheses;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			LongestSubstringWithoutRepeatingCharacters.Go();
+			ValidateBalancedParentheses.Go();
 		}
 	}
 }
