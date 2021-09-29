@@ -10,10 +10,12 @@ namespace Leetcode.First_and_Last_Indices_of_an_Element_in_a_Sorted_Array
 		{
 			var sources = new List<(int[], int)>
 			{
-				(new[] {1, 3, 3, 5, 7, 8, 9, 9, 9, 15}, 9), 
+				(new[] {1, 3, 3, 5, 7, 8, 9, 9, 9, 15}, 9),
 				(new[] {100, 150, 150, 153}, 150),
-				(new[] {1, 2, 3, 4, 5, 6, 10}, 9), 
-				(new[] {1, 2, 2, 2, 2, 3, 4, 7, 8, 8}, 2)
+				(new[] {1, 2, 3, 4, 5, 6, 10}, 9),
+				(new[] {1, 2, 2, 2, 2, 3, 4, 7, 8, 8}, 2),
+				(new [] {7,7,7,7,7,7,7,7,7}, 7),
+				(new [] {1,7,7,7,7,7,7,7,7}, 7)
 			};
 
 			foreach (var source in sources)
