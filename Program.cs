@@ -1,4 +1,4 @@
-﻿using Leetcode.Validate_Balanced_Parentheses;
+﻿using Leetcode.First_and_Last_Indices_of_an_Element_in_a_Sorted_Array;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			ValidateBalancedParentheses.Go();
+			FirstAndLastIndicesOfElementInSortedArray.Go();
 		}
 	}
 }
