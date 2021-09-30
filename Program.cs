@@ -1,4 +1,4 @@
-﻿using Leetcode.Reverse_a_Linked_List;
+﻿using Leetcode.Sorting_a_list_with_3_unique_numbers;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			ReverseLinkedList.Go();
+			SortListWithThreeUniqueNumbers.Go();
 		}
 	}
 }
