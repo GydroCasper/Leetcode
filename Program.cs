@@ -1,4 +1,4 @@
-﻿using Leetcode.First_and_Last_Indices_of_an_Element_in_a_Sorted_Array;
+﻿using Leetcode.Reverse_a_Linked_List;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			FirstAndLastIndicesOfElementInSortedArray.Go();
+			ReverseLinkedList.Go();
 		}
 	}
 }

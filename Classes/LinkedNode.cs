@@ -1,4 +1,6 @@
-﻿namespace Leetcode.Classes
+﻿using System;
+
+namespace Leetcode.Classes
 {
 	public class LinkedNode<T>
 	{
@@ -14,5 +16,17 @@
 		public T Value;
 
 		public LinkedNode<T> Next;
+
+		public void Print()
+		{
+			var currentValue = this;
+
+			while (currentValue != null)
+			{
+				Console.Write(currentValue.Value.ToString());
+				currentValue = currentValue.Next;
+				if(currentValue != null) Console.Write(" -> ");
+			}
+		}
 	}
 }
