@@ -1,4 +1,4 @@
-﻿using Leetcode.Sorting_a_list_with_3_unique_numbers;
+﻿using Leetcode.Two_Sum;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			SortListWithThreeUniqueNumbers.Go();
+			TwoSum.Go();
 		}
 	}
 }
