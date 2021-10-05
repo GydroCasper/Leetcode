@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			TwoSum.Go();
+			NonDecreasingArrayWithSingleModification.Go();
 		}
 	}
 }
