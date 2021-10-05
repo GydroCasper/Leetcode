@@ -1,4 +1,4 @@
-﻿using Leetcode.Floor_and_Ceiling_of_a_Binary_Search_Tree;
+﻿using Leetcode.Invert_a_Binary_Tree;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			FloorAndCeilingOfBinarySearchTree.Go();
+			InvertBinaryTree.Go();
 		}
 	}
 }
