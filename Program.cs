@@ -1,4 +1,4 @@
-﻿using Leetcode.Invert_a_Binary_Tree;
+﻿using Leetcode.Maximum_In_A_Stack;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			InvertBinaryTree.Go();
+			MaximumInStack.Go();
 		}
 	}
 }
