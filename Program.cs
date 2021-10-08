@@ -1,4 +1,4 @@
-﻿using Leetcode.Maximum_In_A_Stack;
+﻿using Leetcode.Number_of_Ways_to_Climb_Stairs;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			MaximumInStack.Go();
+			NumberOfWaysToClimbStairs.Go();
 		}
 	}
 }
