@@ -1,4 +1,4 @@
-﻿using Leetcode.Number_of_Ways_to_Climb_Stairs;
+﻿using Leetcode.Longest_Palindromic_Substring;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			NumberOfWaysToClimbStairs.Go();
+			LongestPalindromicSubstring.Go();
 		}
 	}
 }
