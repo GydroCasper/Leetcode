@@ -22,14 +22,8 @@ namespace Leetcode.Longest_Palindromic_Substring
 
 			for (var i = 0; i < source.Length; i++)
 			{
-				if (i < source.Length - 1 && source[i] == source[i + 1])
-				{
-					longestPalindrome = LongestPalindrome(source, i, longestPalindrome, 1);
-				}
-				else
-				{
-					longestPalindrome = LongestPalindrome(source, i, longestPalindrome, 0);
-				}
+				longestPalindrome = LongestPalindrome(source, i, longestPalindrome,
+					i < source.Length - 1 && source[i] == source[i + 1] ? 1 : 0);
 			}
 
 			return longestPalindrome;
