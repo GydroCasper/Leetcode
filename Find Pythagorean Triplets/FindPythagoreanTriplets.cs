@@ -8,7 +8,7 @@ namespace Leetcode.Find_Pythagorean_Triplets
 	{
 		public static void Go()
 		{
-			var source = new List<int> {3, 5, 12, 5, 14};
+			var source = new List<int> {3, 5, 12, 5, 13};
 			
 			Console.WriteLine(CheckIfPythagoreanTriplet(source));
 		}
