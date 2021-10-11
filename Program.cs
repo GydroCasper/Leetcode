@@ -1,4 +1,4 @@
-﻿using Leetcode.Longest_Palindromic_Substring;
+﻿using Leetcode.Find_Pythagorean_Triplets;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			LongestPalindromicSubstring.Go();
+			FindPythagoreanTriplets.Go();
 		}
 	}
 }
