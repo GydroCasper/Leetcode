@@ -1,4 +1,4 @@
-﻿using Leetcode.Find_Pythagorean_Triplets;
+﻿using Leetcode.Edit_Distance;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			FindPythagoreanTriplets.Go();
+			EditDistance.Go();
 		}
 	}
 }
