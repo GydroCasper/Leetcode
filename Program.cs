@@ -1,4 +1,4 @@
-﻿using Leetcode.Edit_Distance;
+﻿using Leetcode.Create_a_Simple_Calculator;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			EditDistance.Go();
+			CreateSimpleCalculator.Go();
 		}
 	}
 }
