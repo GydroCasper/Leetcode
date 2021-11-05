@@ -1,4 +1,4 @@
-﻿using Leetcode.Create_a_Simple_Calculator;
+﻿using Leetcode.Get_Top_Rated_Food_Outlets;
 
 namespace Leetcode
 {
@@ -6,7 +6,8 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-			CreateSimpleCalculator.Go();
+            GetTopRatedFoodOutlets.Go();
 		}
 	}
 }
+
