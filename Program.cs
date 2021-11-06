@@ -1,4 +1,4 @@
-﻿using Leetcode.Get_Top_Rated_Food_Outlets;
+﻿using Leetcode.Word_Search;
 
 namespace Leetcode
 {
@@ -6,7 +6,7 @@ namespace Leetcode
 	{
 		static void Main(string[] args)
 		{
-            GetTopRatedFoodOutlets.Go();
+			WordSearch.Go();
 		}
 	}
 }
